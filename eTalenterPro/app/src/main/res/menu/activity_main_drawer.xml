@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="DASH BOARD" />
+        <item
+            android:id="@+id/compatetions"
+            android:icon="@android:drawable/ic_menu_today"
+            android:title="COMPATETIONS" />
+        <item
+            android:id="@+id/participants"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="PARTICIPANTS" />
+        <item
+            android:id="@+id/subunits"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="SUB UNITS" />
+        <item
+            android:id="@+id/timemanagement"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="TIME MANAGEMENT" />
+        <item
+            android:id="@+id/judge"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="JUDGE" />
+        <item
+            android:id="@+id/managescore"
+            android:icon="@android:drawable/checkbox_on_background"
+            android:title="MANAGE SCORES" />
+        <item
+            android:id="@+id/manageresult"
+            android:icon="@android:drawable/ic_popup_reminder"
+            android:title="MANAGE RESULT" />
+
+        <item
+            android:id="@+id/cms"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="CMS" />
+    </group>
+
+    <item android:title="User log Out">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="Log Out" />
+
+        </menu>
+    </item>
+
+</menu>
